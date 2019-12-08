@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pineappletree-makeer.github.io/</id>
     <title>pineappletreemaker</title>
-    <updated>2019-12-08T18:35:13.730Z</updated>
+    <updated>2019-12-08T18:42:51.348Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pineappletree-makeer.github.io/"/>
     <link rel="self" href="https://pineappletree-makeer.github.io//atom.xml"/>
@@ -11,13 +11,12 @@
     <icon>https://pineappletree-makeer.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, pineappletreemaker</rights>
     <entry>
-        <title type="html"><![CDATA[2019年12月9日]]></title>
+        <title type="html"><![CDATA[2019年12月9日博客发行时间]]></title>
         <id>https://pineappletree-makeer.github.io//post/2019-nian-12-yue-9-ri</id>
         <link href="https://pineappletree-makeer.github.io//post/2019-nian-12-yue-9-ri">
         </link>
         <updated>2019-12-08T18:26:21.000Z</updated>
-        <content type="html"><![CDATA[<p>博客发行时间<br>
-开始搬运。</p>
+        <content type="html"><![CDATA[<p>开始搬运。</p>
 ]]></content>
     </entry>
 </feed>
