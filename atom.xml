@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pineappletree-makeer.github.io/</id>
-    <title>Gridea</title>
-    <updated>2019-12-08T18:05:59.399Z</updated>
+    <title>菠萝树制作者</title>
+    <updated>2019-12-08T18:12:19.018Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pineappletree-makeer.github.io/"/>
     <link rel="self" href="https://pineappletree-makeer.github.io//atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>一个学生党的故事</subtitle>
     <logo>https://pineappletree-makeer.github.io//images/avatar.png</logo>
     <icon>https://pineappletree-makeer.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <rights>All rights reserved 2019, 菠萝树制作者</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://pineappletree-makeer.github.io//post/hello-gridea</id>
