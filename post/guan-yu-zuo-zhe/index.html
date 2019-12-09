@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | pineappletreemaker</title>
+<title>关于作者 | pineappletreemaker</title>
 <meta name="description" content="大自然的搬运工">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://pineappletree-makeer.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -95,40 +101,30 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">关于作者</h2>
+            <div class="post-date">2019-12-09</div>
+            
+            <div class="post-content">
+              <figure data-type="image" tabindex="1"><img src="https://pineappletree-makeer.github.io//post-images/1575903017774.png" alt=""></figure>
+<p>🤠毕业一年的大学生。每天稍微更新一下，情绪化鬼才。<br>
+📳联系方式：<br>
+qq：1012156229<br>
+＋我备注 原因 不然不加。♥️谢谢支持</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://pineappletree-makeer.github.io//post/gong-xiang-zhang-hao-zi-qu">
-                      <h2 class="post-title">
-                        共享账号自取
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://pineappletree-makeer.github.io//post/2019-nian-12-yue-9-ri">
-                      <h2 class="post-title">
-                        2019年12月9日博客发行时间
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -150,6 +146,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'ce09ebe7db3ac61fefcc',
+        clientSecret: '6268ef68ea44e82f3b059e1d08618cd062fd384b',
+        repo: 'pineappletree-makeer.github.io',
+        owner: 'pineappletree-makeer',
+        admin: ['pineappletree-makeer'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
