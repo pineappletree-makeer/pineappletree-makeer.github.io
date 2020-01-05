@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | PINE.APPLE.TREE白嫖</title>
+<title>代理事宜 | PINE.APPLE.TREE白嫖</title>
 <meta name="description" content="嫖就对了">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://pineappletree-makeer.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -95,59 +101,57 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">代理事宜</h2>
+            <div class="post-date">2020-01-05</div>
+            
+            <div class="post-content">
+              <p>招代理<br>
+好不好挣你们自己琢磨，不强求不勉强。<br>
+代理须知：<br>
+代理费：目前58元，每多一名代理，58元的基础上加多十元。</p>
+<p>代理的工作流程：（不需要你搭建，不需要你出如何更新订阅 或者导入节点的教程。群主这边都会有资料。）</p>
+<p>你只需要问清楚找你的买家<br>
+①	邮箱<br>
+②	随机8位数密码<br>
+③	报价（自己定）<br>
+④	操作系统，ios，安卓，还是windows<br>
+⑤	把邮箱 随机8位数密码报给我 还有客户要的时长。看到秒回，如果我没回，一般我10：30都在线，立马开订阅的链接给你。</p>
+<p>【注意事项】<br>
+我只收一个客户5元。每次续费也是5元。其余的大头都是你们的。<br>
+第二我会建一个新的qq群，重要的通知，售后都可以叫你们的客户找我，你们负责把你们的客户拉进群。<br>
+代理的客户我会催续费，续费好了，比如说15的套餐，我会返10元给你们，有截图。</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
-              
+              <div class="tag-container">
                 
-                  <article class="post">
-                    <a href="https://pineappletree-makeer.github.io/post/dai-li-shi-yi">
-                      <h2 class="post-title">
-                        代理事宜
-                      </h2>
-                    </a>
-                  </article>
+                  <a href="https://pineappletree-makeer.github.io/tag/DVOZNcuDc" class="tag">
+                    上网工具
+                  </a>
                 
-              
-                
-              
-                
-              
+              </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://pineappletree-makeer.github.io/post/lian-xi-fang-shi">
+                  <h3 class="post-title">
+                    被封后大部队联系方式
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://pineappletree-makeer.github.io/post/lian-xi-fang-shi">
-                      <h2 class="post-title">
-                        被封后大部队联系方式
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://pineappletree-makeer.github.io/post/2019-nian-12-yue-9-ri">
-                      <h2 class="post-title">
-                        2019年12月9日建站 该网站宗旨：白嫖使我快乐
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -169,6 +173,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'ce09ebe7db3ac61fefcc',
+        clientSecret: '6268ef68ea44e82f3b059e1d08618cd062fd384b',
+        repo: 'pineappletree-makeer.github.io',
+        owner: 'pineappletree-makeer',
+        admin: ['pineappletree-makeer'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
